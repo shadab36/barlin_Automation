@@ -14,17 +14,17 @@
     <test name="sign up Page Test">
         <parameter name="browser" value="chrome"/>
         <classes>
-                        <class name="com.qa.opencart.tests.CreateWorkFlowApi">
-                        </class>
-<!--            <class name="com.qa.opencart.tests.RegisterPageTest"/>-->
+            <!--            <class name="com.qa.opencart.tests.CreateWorkFlowApi">-->
+            <!--            </class>-->
+            <class name="com.qa.opencart.tests.RegisterPageTest"/>
         </classes>
     </test>
-<!--    <test name="invalid data test">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.opencart.tests.RegisterPageInvalidDataTest">-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="invalid data test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.qa.opencart.tests.RegisterPageInvalidDataTest">
+            </class>
+        </classes>
+    </test>
 </suite>
 
